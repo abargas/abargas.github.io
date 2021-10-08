@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="height: 100%;">
     <head>
-        <title id="title">iOS 15.1 blank video on app switch tester</title>
+        <title id="title">iOS 15.1 blank video on app switch sample</title>
         <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
         <meta
@@ -36,10 +36,10 @@
             <button id="capture" onclick=captureCanvas()>Capture canvas</button>
             <button id="audio" onclick=captureAudio()>Capture audio</button>
             <button id="play" onclick=play()>Play video</button>
-            <button id="reset" onclick=reset()">Reset source</button>
+            <button id="reset" onclick=reset()>Reset source</button>
             <div id="labeled-canvas" class="labeled">
                 <label id="canvaslabel" for="canvas">Canvas</label>
-                <canvas id="canvas" style="background: black;"></canvas>
+                <canvas id="canvas"></canvas>
             </div>
             <div id="labeled-video" class="labeled">
                 <label id="videolabel" for="video">Video - state: </label>
