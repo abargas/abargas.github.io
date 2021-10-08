@@ -37,6 +37,7 @@ body {
     float: left;
     display: inline-flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 label {
@@ -55,14 +56,14 @@ button {
     padding: 8px 40px;
     margin-top: 8px;
     margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
     width: 45%;
-    float: left;
-    position: relative;
 }
 
 video {
@@ -73,8 +74,6 @@ video {
     user-select: none;
     touch-action: none;
     background: black;
-    float: left;
-    position: relative;
 }
 
 ol {
@@ -88,8 +87,6 @@ canvas {
     user-select: none;
     touch-action: none;
     background: black;
-    float: left;
-    position: relative;
 }
 
 video:focus {
