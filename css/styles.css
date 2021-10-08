@@ -53,6 +53,7 @@ label {
 button {
     background-color: green;
     color: white;
+    padding: 8px 40px;
     margin-top: 8px;
     margin-bottom: 8px;
     border: none;
@@ -60,7 +61,7 @@ button {
     cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
-    width: 40%;
+    width: 25%;
 }
 
 video {
